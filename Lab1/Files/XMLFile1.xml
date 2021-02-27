@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <message1>
+    <level>normal</level>
+    <from>main_programm</from>
+    <time>09:43:00 27 Feb 2021</time>
+    <text>Hello, World!!!</text>
+  </message1>
+  <message1>
+    <level>normal</level>
+    <from>main_programm</from>
+    <time>09:43:00 27 Feb 2021</time>
+    <text>Hello, World!!!</text>
+  </message1>
+  <message>
+    <level>Normal message</level>
+    <from>main_program</from>
+    <time>27.02.2021 12:40:14</time>
+    <text>That is alright!</text>
+  </message>
+</messages>

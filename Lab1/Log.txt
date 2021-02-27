@@ -1,0 +1,10 @@
+Level-normal / main_program / 27.02.2021 12:03:33 / That is OKEY!
+Level-errors / main_program / 27.02.2021 12:04:31 / Don`t touch the buttons of keyboard!!!
+Level-remarks / main_program / 27.02.2021 12:04:31 / You should click on the keyboard more slower than before it!
+Level-normal / main_program / 27.02.2021 12:04:31 / That is OKEY!
+Level-errors / main_program / 27.02.2021 12:19:34 / Don`t touch the buttons of keyboard!!!
+Level-remarks / main_program / 27.02.2021 12:19:34 / You should click on the keyboard more slower than before it!
+Level-normal / main_program / 27.02.2021 12:19:34 / That is OKEY!
+Level-errors / main_program / 27.02.2021 12:39:19 / Don`t touch the buttons of keyboard!!!
+Level-remarks / main_program / 27.02.2021 12:39:19 / You should click on the keyboard more slower than before it!
+Level-normal / main_program / 27.02.2021 12:39:19 / That is OKEY!
