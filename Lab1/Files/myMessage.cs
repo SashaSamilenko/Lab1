@@ -15,7 +15,7 @@ namespace Lab1
         public string Time{ get; set; }
         public myMessage()
         {
-            Time = DateTime.Now.ToString();
+            //Time = DateTime.Now.ToString();
         }
     }
 }

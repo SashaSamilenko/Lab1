@@ -10,11 +10,12 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            myMessage message = new myMessage() { From = "main_program", Level = "Normal message", Text = "That is alright!" };
-            xmlFile myXML = new xmlFile();
-            myXML.output(message);
+            //myMessage message = new myMessage() { From = "main_program", Level = "Normal message", Text = "That is alright!" };
+            //xmlFile myXML = new xmlFile();
+            //myXML.output(message);
 
-
+            txtMessagesFactory.Create("main_program", "error", "Sorry, but you have to restart your program!");
+            xmlMessagesFactory.Create("main_program", "remark", "Looking at your movings we think you should restart your program!");
 
             /*myMessage message1 = new myMessage() { From = "main_program", Level = "Normal message", Text = "That is alright!" };
             myMessage message2 = new myMessage() { From = "main_program", Level = "Erro", Text = "No! Stop do it!" };
@@ -28,8 +29,8 @@ namespace Lab1
 
 
 
-            txtFile txtMessage = new txtFile();
-            txtMessage.output(message);
+            /*txtFile txtMessage = new txtFile();
+            txtMessage.output(message);*/
             Console.WriteLine("Thank you for using our program!\nGood luck!\nClick on any button to close the window!");
             Console.ReadKey();
         }

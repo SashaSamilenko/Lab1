@@ -43,29 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="myMessage.cs" />
-    <Compile Include="version_1.0\Events\AbstractEvents.cs" />
-    <Compile Include="version_1.0\Events\Error.cs" />
-    <Compile Include="version_1.0\Factory\ErrorsFactory.cs" />
-    <Compile Include="version_1.0\Main1.cs" />
-    <Compile Include="version_1.0\RW_tf_file\InOutFile.cs" />
-    <Compile Include="version_1.0\Factory\MessageFactory.cs" />
-    <Compile Include="version_1.0\Events\NormalMessages.cs" />
-    <Compile Include="version_1.0\Factory\NormalsMessagesFactory.cs" />
+    <Compile Include="Files\messagesFactory.cs" />
+    <Compile Include="Files\myMessage.cs" />
+    <Compile Include="Files\MessageFactory.cs" />
     <Compile Include="Main program\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="version_1.0\Events\Remark.cs" />
-    <Compile Include="version_1.0\Factory\RemarksFactory.cs" />
     <Compile Include="Files\workingFiles.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Files\MyDiagram.cd" />
-    <None Include="version_1.0\ClassDiagram2.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Log.txt" />
-    <Content Include="Files\XMLFile1.xml" />
+    <Content Include="Files\LogFiles\Log.txt" />
+    <Content Include="Files\LogFiles\XMLFile1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

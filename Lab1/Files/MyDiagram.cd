@@ -22,17 +22,38 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Lab1.Program" Collapsed="true">
-    <Position X="10" Y="1.75" Width="1.5" />
+    <Position X="7" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Main program\Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lab1.myMessage" Collapsed="true">
-    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Position X="2.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAQA=</HashCode>
-      <FileName>myMessage.cs</FileName>
+      <FileName>Files\myMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.xmlMessagesFactory" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Files\messagesFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.txtMessagesFactory" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Files\messagesFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.MessageFactory" Collapsed="true">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Files\MessageFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
