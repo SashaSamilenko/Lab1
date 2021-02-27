@@ -8,6 +8,22 @@ namespace Lab1
 {
     class xmlMessagesFactory:MessageFactory
     {
+        internal myMessage Композиция
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal txtFile Composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         static public new void Create(string from, string level, string text)
         {
             xmlFile myXML = new xmlFile();
@@ -23,6 +39,22 @@ namespace Lab1
     }
     class txtMessagesFactory:MessageFactory
     {
+        internal myMessage Композиция
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        internal xmlFile Composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         static public new void Create(string from, string level, string text)
         {
             txtFile myTXT = new txtFile();

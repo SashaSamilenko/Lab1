@@ -14,8 +14,8 @@ namespace Lab1
             //xmlFile myXML = new xmlFile();
             //myXML.output(message);
 
-            txtMessagesFactory.Create("main_program", "error", "Sorry, but you have to restart your program!");
-            xmlMessagesFactory.Create("main_program", "remark", "Looking at your movings we think you should restart your program!");
+            txtMessagesFactory.Create("main_program", "normal", "Excuse me,I am glad to see you!");
+            xmlMessagesFactory.Create("main_program", "normal", "I am glad that you use my program! Good luck!");
 
             /*myMessage message1 = new myMessage() { From = "main_program", Level = "Normal message", Text = "That is alright!" };
             myMessage message2 = new myMessage() { From = "main_program", Level = "Erro", Text = "No! Stop do it!" };
