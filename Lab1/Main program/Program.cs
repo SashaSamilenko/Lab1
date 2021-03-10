@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using messagesLibrary;
 
 namespace Lab1
 {
@@ -10,28 +11,26 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            //myMessage message = new myMessage() { From = "main_program", Level = "Normal message", Text = "That is alright!" };
-            //xmlFile myXML = new xmlFile();
-            //myXML.output(message);
 
-            txtMessagesFactory.Create("main_program", "normal", "Excuse me,I am glad to see you!");
-            xmlMessagesFactory.Create("main_program", "normal", "I am glad that you use my program! Good luck!");
+            MessageFactory magazineXML=Client.Create(typeOfFile.xml);
+            List<myMessage> txtMessages = new List<myMessage>();
+            txtMessages.Add(new myMessage() { From = "main_program", Level = levelMessage.normal, Text = "Excuse me,I am glad to see you!", To = "Log.xml" });
+            txtMessages.Add(new myMessage() { From = "main_program", Level = levelMessage.error, Text = "404", To = "Log.xml" });
+            txtMessages.Add(new myMessage() { From = "main_program", Level = levelMessage.error, Text = "Do not input null!", To = "Log.xml" });
+            magazineXML.Add(txtMessages[0]);
+            magazineXML.Add(txtMessages[1]);
+            magazineXML.Add(txtMessages[2]);
 
-            /*myMessage message1 = new myMessage() { From = "main_program", Level = "Normal message", Text = "That is alright!" };
-            myMessage message2 = new myMessage() { From = "main_program", Level = "Erro", Text = "No! Stop do it!" };
-            myMessage message3 = new myMessage() { From = "main_program", Level = "Remark", Text = "Okey, but in our opinion you should check your Log list!" };
-            myMessage message4 = new myMessage() { From = "main_program", Level = "Erro", Text = "404!!!" };
-            myXML.output(message1);
-            myXML.output(message2);
-            myXML.output(message3);
-            myXML.output(message4);*/
+            MessageFactory magazineTXT = Client.Create(typeOfFile.txt);
+            List<myMessage> xmlMessages = new List<myMessage>();
+            xmlMessages.Add(new myMessage() { From = "main_program", Level = levelMessage.normal, Text = "Thank you for using my program! Good luck!", To = "Log.txt" });
+            xmlMessages.Add(new myMessage() { From = "main_program", Level = levelMessage.remark, Text = "You should use version 8.0 of C#", To = "Log.txt" });
+            xmlMessages.Add(new myMessage() { From = "main_program", Level = levelMessage.remark, Text = "Program will be quicklier if you use version 8.0 of C#", To = "Log.txt" });
+            magazineTXT.Add(xmlMessages[0]);
+            magazineTXT.Add(xmlMessages[1]);
+            magazineTXT.Add(xmlMessages[2]);
 
-
-
-
-            /*txtFile txtMessage = new txtFile();
-            txtMessage.output(message);*/
-            Console.WriteLine("Thank you for using our program!\nGood luck!\nClick on any button to close the window!");
+            Console.WriteLine("Click on any button to close the window!");
             Console.ReadKey();
         }
     }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace messagesLibrary
 {
-    abstract class MessageFactory
+    public abstract class MessageFactory
     {
-        static public void Create(string from, string level, string text) { }
+        public virtual void Add(myMessage message) { }
     }
 }

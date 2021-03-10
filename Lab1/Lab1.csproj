@@ -59,20 +59,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Files\messagesFactory.cs" />
-    <Compile Include="Files\myMessage.cs" />
-    <Compile Include="Files\MessageFactory.cs" />
     <Compile Include="Main program\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Files\workingFiles.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Files\MyDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Files\LogFiles\Log.txt" />
-    <Content Include="Files\LogFiles\XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -85,6 +77,16 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\messagesLibrary\messagesLibrary.csproj">
+      <Project>{fe781eff-9bbf-447d-86fc-60c046e6be21}</Project>
+      <Name>messagesLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\LogFiles\Log.txt" />
+    <Content Include="Files\LogFiles\Log.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

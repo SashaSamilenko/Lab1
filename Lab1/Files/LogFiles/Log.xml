@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <message>
+    <level>error</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:07</time>
+    <text>Do not input null!</text>
+  </message>
+  <message>
+    <level>normal</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:11</time>
+    <text>Excuse me,I am glad to see you!</text>
+  </message>
+  <message>
+    <level>error</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:11</time>
+    <text>404</text>
+  </message>
+  <message>
+    <level>error</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:11</time>
+    <text>Do not input null!</text>
+  </message>
+  <message>
+    <level>normal</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:14</time>
+    <text>Excuse me,I am glad to see you!</text>
+  </message>
+  <message>
+    <level>error</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:15</time>
+    <text>404</text>
+  </message>
+  <message>
+    <level>error</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:15</time>
+    <text>Do not input null!</text>
+  </message>
+  <message>
+    <level>normal</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:18</time>
+    <text>Excuse me,I am glad to see you!</text>
+  </message>
+  <message>
+    <level>error</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:18</time>
+    <text>404</text>
+  </message>
+  <message>
+    <level>error</level>
+    <from>main_program</from>
+    <time>04.03.2021 18:50:18</time>
+    <text>Do not input null!</text>
+  </message>
+</messages>

@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{B5093DE4-439D-4FB8-80A9-2C4938AEF081}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE781EFF-9BBF-447D-86FC-60C046E6BE21} = {FE781EFF-9BBF-447D-86FC-60C046E6BE21}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "messagesLibrary", "messagesLibrary\messagesLibrary.csproj", "{FE781EFF-9BBF-447D-86FC-60C046E6BE21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{B5093DE4-439D-4FB8-80A9-2C4938AEF081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5093DE4-439D-4FB8-80A9-2C4938AEF081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5093DE4-439D-4FB8-80A9-2C4938AEF081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE781EFF-9BBF-447D-86FC-60C046E6BE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE781EFF-9BBF-447D-86FC-60C046E6BE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE781EFF-9BBF-447D-86FC-60C046E6BE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE781EFF-9BBF-447D-86FC-60C046E6BE21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

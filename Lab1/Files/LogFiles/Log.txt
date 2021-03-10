@@ -1,10 +1,10 @@
-Level-normal / main_program / 27.02.2021 12:03:33 / That is OKEY!
-Level-errors / main_program / 27.02.2021 12:04:31 / Don`t touch the buttons of keyboard!!!
-Level-remarks / main_program / 27.02.2021 12:04:31 / You should click on the keyboard more slower than before it!
-Level-normal / main_program / 27.02.2021 12:04:31 / That is OKEY!
-Level-errors / main_program / 27.02.2021 12:19:34 / Don`t touch the buttons of keyboard!!!
-Level-remarks / main_program / 27.02.2021 12:19:34 / You should click on the keyboard more slower than before it!
-Level-normal / main_program / 27.02.2021 12:19:34 / That is OKEY!
-Level-errors / main_program / 27.02.2021 12:39:19 / Don`t touch the buttons of keyboard!!!
-Level-remarks / main_program / 27.02.2021 12:39:19 / You should click on the keyboard more slower than before it!
-Level-normal / main_program / 27.02.2021 12:39:19 / That is OKEY!
+remark / main_program / 04.03.2021 18:50:07 / Program will be quicklier if you use version 8.0 of C#
+normal / main_program / 04.03.2021 18:50:11 / Thank you for using my program! Good luck!
+remark / main_program / 04.03.2021 18:50:11 / You should use version 8.0 of C#
+remark / main_program / 04.03.2021 18:50:11 / Program will be quicklier if you use version 8.0 of C#
+normal / main_program / 04.03.2021 18:50:15 / Thank you for using my program! Good luck!
+remark / main_program / 04.03.2021 18:50:15 / You should use version 8.0 of C#
+remark / main_program / 04.03.2021 18:50:15 / Program will be quicklier if you use version 8.0 of C#
+normal / main_program / 04.03.2021 18:50:18 / Thank you for using my program! Good luck!
+remark / main_program / 04.03.2021 18:50:18 / You should use version 8.0 of C#
+remark / main_program / 04.03.2021 18:50:18 / Program will be quicklier if you use version 8.0 of C#

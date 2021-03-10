@@ -1,60 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Lab1.workingFiles" Collapsed="true">
-    <Position X="7" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAA=</HashCode>
-      <FileName>Files\workingFiles.cs</FileName>
-    </TypeIdentifier>
+  <Class Name="messagesLibrary.Client" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
   </Class>
-  <Class Name="Lab1.txtFile" Collapsed="true">
-    <Position X="5.5" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAA=</HashCode>
-      <FileName>Files\workingFiles.cs</FileName>
-    </TypeIdentifier>
+  <Class Name="messagesLibrary.MessageFactory" Collapsed="true">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
   </Class>
-  <Class Name="Lab1.xmlFile" Collapsed="true">
-    <Position X="8.5" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAABBAAAAAAAAAAAA=</HashCode>
-      <FileName>Files\workingFiles.cs</FileName>
-    </TypeIdentifier>
+  <Class Name="messagesLibrary.xmlMessagesFactory" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier />
   </Class>
-  <Class Name="Lab1.Program" Collapsed="true">
-    <Position X="4.75" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Main program\Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab1.myMessage" Collapsed="true">
-    <Position X="2" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACAAAAQA=</HashCode>
-      <FileName>Files\myMessage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab1.xmlMessagesFactory" Collapsed="true">
+  <Class Name="messagesLibrary.txtMessagesFactory" Collapsed="true">
     <Position X="2.75" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
-      <FileName>Files\messagesFactory.cs</FileName>
-    </TypeIdentifier>
+    <TypeIdentifier />
   </Class>
-  <Class Name="Lab1.txtMessagesFactory" Collapsed="true">
-    <Position X="0.5" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
-      <FileName>Files\messagesFactory.cs</FileName>
-    </TypeIdentifier>
+  <Class Name="messagesLibrary.myMessage" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
   </Class>
-  <Class Name="Lab1.MessageFactory" Collapsed="true">
-    <Position X="1.25" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
-      <FileName>Files\MessageFactory.cs</FileName>
-    </TypeIdentifier>
+  <Class Name="messagesLibrary.workingFiles" Collapsed="true">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
   </Class>
+  <Class Name="messagesLibrary.txtFile" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="messagesLibrary.xmlFile" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="messagesLibrary.typeOfFile" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="messagesLibrary.levelMessage" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

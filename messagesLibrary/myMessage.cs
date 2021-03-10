@@ -4,18 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace messagesLibrary
 {
-    class myMessage
+    public enum levelMessage
     {
-
-        public string Level { get; set; }
+        error,
+        remark,
+        normal
+    }
+    public class myMessage
+    {
+        public levelMessage Level { get; set; }
         public string From { get; set; }
         public string Text { get; set; }
         public string Time{ get; set; }
-        public myMessage()
-        {
-            //Time = DateTime.Now.ToString();
-        }
+        public string To { get; set; }
     }
 }

@@ -6,24 +6,27 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Xml;
 
-namespace Lab1
+namespace messagesLibrary
 {
-    abstract class workingFiles
+    public abstract class workingFiles
     {
-        public virtual string[] input() { return null; }
+        public virtual string[] input(string nameOfFile) { return null; }
         public virtual void output(myMessage message) { }
     }
-    class txtFile:workingFiles
+    public class txtFile:workingFiles
     {
-        public override string[] input()
+        public override string[] input(string nameOfFile)
         {
-            string[] lines = File.ReadAllLines("Log.txt");
-            return lines;
+            return File.ReadAllLines(nameOfFile);
         }
         public override void output(myMessage message) 
         {
-            string[] lines = input();
-            string allText = message.Level + " / " + message.From + " / " + message.Time + " / " + message.Text;
+            string newText = checkOver(message.To) + message.Level.ToString() + " / " + message.From + " / " + message.Time + " / " + message.Text;
+            File.WriteAllText(message.To, newText);
+        }
+        public string checkOver(string nameFile)
+        {
+            string[] lines = input(nameFile);
             if (lines.Length == 10)
             {
                 for (int i = 0; i < lines.Length; i++)
@@ -34,41 +37,28 @@ namespace Lab1
                     }
                     else
                     {
-                        lines[i] = allText;
+                        lines[i] = null;
                     }
                 }
-                allText = "";
-                foreach (string item in lines)
-                {
-                    allText += item + '\n';
-                }
-                File.WriteAllText("Log.txt", allText);
             }
-            else
+            string allText = "";
+            foreach (string item in lines)
             {
-                string new_text = allText;
-                allText = "";
-                foreach (string item in lines)
+                if (item != null)
                 {
                     allText += item + '\n';
                 }
-                allText += new_text;
-                File.WriteAllText("Log.txt", allText);
             }
+            return allText;
         }
     }
-    class xmlFile:workingFiles
+    public class xmlFile:workingFiles
     {
-        public override string[] input()
-        {
-            string[] lines = File.ReadAllLines("Log.txt");
-            return lines;
-        }
         public override void output(myMessage message)
         {
-            checkOver("XMLFile1.xml");
+            checkOver(message.To);
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("XMLFile1.xml");
+            xDoc.Load(message.To);
             //Create root of our XMLdocument
             XmlElement xRoot = xDoc.DocumentElement;
             //Create new child node of our root!
@@ -79,7 +69,7 @@ namespace Lab1
             XmlElement _time = xDoc.CreateElement("time");
             XmlElement _text = xDoc.CreateElement("text");
             //Create text with is included in elements
-            XmlText levelText = xDoc.CreateTextNode(message.Level);
+            XmlText levelText = xDoc.CreateTextNode(message.Level.ToString());
             XmlText fromText = xDoc.CreateTextNode(message.From);
             XmlText timeText = xDoc.CreateTextNode(message.Time);
             XmlText Text = xDoc.CreateTextNode(message.Text);
@@ -99,7 +89,7 @@ namespace Lab1
             //Add new message in our root
             xRoot.AppendChild(First_element);
             //Save document
-            xDoc.Save("XMLFile1.xml");
+            xDoc.Save(message.To);
         }
         public void checkOver(string nameFile)
         {
@@ -109,7 +99,7 @@ namespace Lab1
             XmlNodeList nodes = xDoc.GetElementsByTagName("message");
             while(nodes.Count>=10)
             {
-                XmlNode firstNode = xRoot.SelectSingleNode("message");//xRoot.FirstChild;
+                XmlNode firstNode = xRoot.SelectSingleNode("message");
                 xRoot.RemoveChild(firstNode);
             }
             xDoc.Save(nameFile);
